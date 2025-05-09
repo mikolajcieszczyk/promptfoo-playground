@@ -2,6 +2,21 @@
 
 W dynamicznym świecie generatywnej AI, tworzenie skutecznych promptów jest kluczowe do uzyskania pożądanych rezultatów. <p></p>
 Jednak jak upewnić się, że nasze prompty działają zgodnie z oczekiwaniami w różnych scenariuszach i z różnymi modelami? <p></p>
+
+Wyzwanie leży w **niedeterministycznej naturze** **Large Language Models (LLM)**. W przeciwieństwie do tradycyjnego oprogramowania, gdzie te same dane wejściowe zawsze dają ten sam wynik, **LLM** mogą generować różne odpowiedzi na ten sam prompt. Ta zmienność wynika z kilku czynników:
+
+- Różne modele mają różne architektury, dane treningowe i możliwości
+- Ten sam model może generować różne wyjścia ze względu na swoją probabilistyczną naturę
+- Wydajność modelu może znacząco różnić się w zależności od typu zadania
+- Odpowiedzi mogą być wpływane przez kontekst, ustawienia temperatury i inne parametry
+
+Dlatego właśnie narzędzia takie jak **Promptfoo** są niezbędne. Pomagają nam:
+
+- Porównywać, jak różne modele radzą sobie z tymi samymi promptami
+- Identyfikować, które prompty działają najlepiej dla konkretnych zadań
+- Mierzyć i śledzić spójność wyjść modelu
+- Optymalizować prompty dla lepszej wydajności i niezawodności
+
 **Odpowiedzią jest Promptfoo** – narzędzie do ewaluacji i porównywania promptów. <p></p>
 
 ## Zastosowanie Promptfoo w realnych scenariuszach
@@ -390,9 +405,9 @@ Pod wykresami swoje miejsce zajmuje...
 
 ## Jakie wnioski można wyciągnąć z macierzy testowej?
 
-1. **Porównanie wydajności modeli dla danego promptu:** Przeglądając wiersz odpowiadający konkretnemu promptowi, możemy bezpośrednio porównać, jak różne modele radziły sobie z tym promptem dla wszystkich przypadków testowych. Możemy zobaczyć, który model częściej generował poprawne odpowiedzi (więcej zielonych komórek) i dla których konkretnie przypadków testowych występowały problemy. Na przykład, możemy zauważyć, że gpt-4o radzi sobie tak samo z generowaniem zabawnych tweetów o "new york city" jak gpt-4o-mini.
+1. **Porównanie wydajności modeli dla danego promptu:** Przeglądając wiersz odpowiadający konkretnemu promptowi, możemy bezpośrednio porównać, jak różne modele radziły sobie z tym promptem dla wszystkich przypadków testowych. Możemy zobaczyć, który model częściej generował poprawne odpowiedzi (więcej zielonych komórek) i dla których konkretnie przypadków testowych występowały problemy. Na przykład, możemy zauważyć, że `gpt-4o` radzi sobie tak samo z generowaniem zabawnych tweetów o `"new york city"` jak `gpt-4o-mini`.
 
-2. **Ocena skuteczności promptu dla danego modelu:** Przeglądając kolumnę odpowiadającą konkretnemu modelowi, możemy zobaczyć, jak ten model radził sobie z różnymi promptami i przypadkami testowymi. Możemy zidentyfikować, które prompty generalnie działają lepiej z danym modelem. Na przykład, możemy zauważyć, że oba modele mają wyższy wskaźnik sukcesu dla prostszego promptu "Write a tweet about..." w porównaniu do promptu wymagającego humoru.
+2. **Ocena skuteczności promptu dla danego modelu:** Przeglądając kolumnę odpowiadającą konkretnemu modelowi, możemy zobaczyć, jak ten model radził sobie z różnymi promptami i przypadkami testowymi. Możemy zidentyfikować, które prompty generalnie działają lepiej z danym modelem. Na przykład, możemy zauważyć, że oba modele mają wyższy wskaźnik sukcesu dla prostszego promptu `"Write a tweet about..."` w porównaniu do promptu wymagającego humoru.
 
 3. **Identyfikacja problematycznych przypadków testowych:** Analizując kolumnę dla konkretnego przypadku testowego (czyli patrząc na wyniki dla danej wartości zmiennej `topic` we wszystkich promptach i modelach), możemy zobaczyć, które przypadki są najbardziej wymagające i gdzie najczęściej dochodzi do niepowodzeń. Na przykład, `"new york city"` wydaje się być trudniejszym tematem, szczególnie jeśli chodzi o spełnienie asertywności związanej z humorem.
 
