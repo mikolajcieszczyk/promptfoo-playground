@@ -3,7 +3,7 @@
 W dynamicznym świecie generatywnej AI, tworzenie skutecznych promptów jest kluczowe do uzyskania pożądanych rezultatów. <p></p>
 Jednak jak upewnić się, że nasze prompty działają zgodnie z oczekiwaniami w różnych scenariuszach i z różnymi modelami? <p></p>
 
-Wyzwanie leży w **niedeterministycznej naturze** **Large Language Models (LLM)**. W przeciwieństwie do tradycyjnego oprogramowania, gdzie te same dane wejściowe zawsze dają ten sam wynik, **LLM** mogą generować różne odpowiedzi na ten sam prompt. Ta zmienność wynika z kilku czynników:
+Wyzwanie leży w **niedeterministycznej naturze** **Dużych Modeli Językowych (LLM)**. W przeciwieństwie do tradycyjnego oprogramowania, gdzie te same dane wejściowe zawsze dają ten sam wynik, **LLM** mogą generować różne odpowiedzi na ten sam prompt. Ta zmienność wynika z kilku czynników:
 
 - Różne modele mają różne architektury, dane treningowe i możliwości
 - Ten sam model może generować różne wyjścia ze względu na swoją probabilistyczną naturę
