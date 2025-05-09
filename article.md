@@ -401,3 +401,10 @@ Pod wykresami swoje miejsce zajmuje...
 5. **Szybka wizualna ocena:** Kolorowanie komórek (zielony/czerwony) pozwala na szybkie, intuicyjne zrozumienie ogólnej wydajności różnych kombinacji promptów i modeli. Obszary z przewagą zielonych komórek wskazują na skuteczne konfiguracje, a obszary z czerwonymi komórkami wymagają dalszej analizy i potencjalnych ulepszeń.
 
 Podsumowując, macierz testowa w Promptfoo jest kluczowym narzędziem do wizualnego porównywania wydajności różnych promptów i modeli w różnych scenariuszach testowych. Pozwala na szybkie identyfikowanie mocnych i słabych stron naszych konfiguracji oraz dostarcza punkt wyjścia do dalszej analizy i optymalizacji.
+
+## Źródła
+
+1. [Promptfoo Official Documentation](https://www.promptfoo.dev/)
+2. [Generative AI Evaluation with Promptfoo: A Comprehensive Guide](https://medium.com/@yukinagae/generative-ai-evaluation-with-promptfoo-a-comprehensive-guide-e23ea95c1bb7)
+3. Personal experience with Promptfoo and general knowledge about LLMs
+4. Model Gemini 2.0 Flash do pomocy w tłumaczeniu i edycji tekstów
