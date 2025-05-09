@@ -21,7 +21,7 @@ This is why tools like **Promptfoo** are essential. They help us:
 
 ## Real-world examples of Promptfoo usage
 
-Before you start reading - here are real-life examples of using Promptfoo in development of LLM-based applications:
+Before you start reading - here are real-life examples of using **Promptfoo** in development of **LLM-based** applications:
 
 1. **Creating a Customer Service Chatbot:** You are using Promptfoo to test different prompts that should respond to typical customer questions. You are checking if the responses are correct, helpful, and in the right tone. You are testing different models to find the one that best handles the nuances of customer language.
 2. **Building a Product Description Generator:** You are testing prompts that should create attractive and informative product descriptions based on their features. You are using Promptfoo to ensure that descriptions are consistent in style, contain all key information, and have appropriate length. You are comparing different models for creativity and accuracy of generated descriptions.
