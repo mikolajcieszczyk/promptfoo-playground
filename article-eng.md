@@ -165,7 +165,7 @@ prompts:
 
 The `prompts` section defines a list of prompts that will be used in tests. In this example, we have two prompts:
 
-- `"Write a tweet about {{topic}}"` - A simple prompt asking to write a tweet about a specific topic. `{{topic}}` is a variable that will be replaced with specific values from the `tests` section.
+- `"Write a tweet about {{topic}}"` - A simple prompt asking to write a tweet about a specific topic. `{{topic}}` is a variable that will be replaced with specific values from the `vars` section.
 - `"Write a concise, funny tweet about {{topic}}"` - A more detailed prompt asking to write a short and funny tweet about a given topic.
 
 ```yaml
@@ -362,9 +362,9 @@ Below the charts is...
 
 **Vertical Axis (Left side):** Shows the variables that were tested in the context of given prompts. In our example, we see three variables:
 
-- `"bananas"`
-- `"avocado toast"`
-- `"new york city"`)
+- `bananas`
+- `avocado toast`
+- `new york city`
 
 <p></p>
 
