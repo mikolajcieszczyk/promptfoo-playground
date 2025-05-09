@@ -8,7 +8,7 @@ Wyzwanie leży w **niedeterministycznej naturze** **Large Language Models (LLM)*
 - Różne modele mają różne architektury, dane treningowe i możliwości
 - Ten sam model może generować różne wyjścia ze względu na swoją probabilistyczną naturę
 - Wydajność modelu może znacząco różnić się w zależności od typu zadania
-- Odpowiedzi mogą być wpływane przez kontekst, ustawienia temperatury i inne parametry
+- Odpowiedzi mogą być modyfikowane przez kontekst, ustawienia temperatury i inne parametry
 
 Dlatego właśnie narzędzia takie jak **Promptfoo** są niezbędne. Pomagają nam:
 
